@@ -1,0 +1,78 @@
+﻿body {
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #0D0B0A;
+    margin-left:100px;
+}
+.left {
+    margin-left:100px;
+}
+
+.form_big_register input, .form_big_register textarea {
+    border: 1px solid #aaa;
+    height: 27px;
+    width: 100%;
+    font-size: 18px;
+    padding: 2px;
+}
+input, textarea {
+    font-size: 0.75em;
+    border: 1px solid #ccc;
+    font-family: arial, "lucida grande", "verdana", sans-serif;
+}
+form .input {
+    color: #333;
+}
+.form_big_register label {
+    font-weight: bold;
+    display: block;
+    color: #666;
+    font-size: 16px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+form .giris_formu input[type=button], .green_button, .textBox {
+    border: 1px solid #388F16;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 0.81em;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    height: 40px;
+    font-size: 1em;
+    width: 100px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    background: #000;
+    background: -moz-linear-gradient(center top , #88C918 0pt, #6EA313 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, from(#88C918), to(#6EA313));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF0000FF, endColorstr=#FFFFFFFF);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF0000FF, endColorstr=#FFFFFFFF)";
+}
+.form_big_register input, .form_big_register textarea {
+    border: 1px solid #aaa;
+    height: 27px;
+    width: 100%;
+    font-size: 18px;
+    padding: 2px;
+}
+input, textarea {
+    font-size: 0.75em;
+    border: 1px solid #ccc;
+    font-family: arial, "lucida grande", "verdana", sans-serif;
+}
+.clear {
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    width: 0px;
+    margin: 0px;
+    border: 0px;
+}

@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Anasayfa.Master.cs" Inherits="kitap_sitem.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="anastil.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+
+        <div id="giris">
+        <ul style="margin-top:0px;">
+    <li style="display: block; float: right; margin-top: 1%;">
+                        
+                            <div style="display:none;">
+                                <input type="hidden" name="_method" value="POST"/>
+                                <input type="hidden" name="data[_Token][key]" value="9c794a93b1d976d5a07c53242a7232e43dc9c79f" id="Token1953780139"/>
+
+                            </div>                            
+                            <table id="login_table" cellpadding="2" cellspacing="5">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div style="color: #000; font-weight:bold; margin:0;">
+                                            E-posta adresiniz
+                                            </div>
+                                        </td>
+                                        <td colspan="2">
+                                            <div style="color: #000; font-weight:bold; margin:0;">
+                                            Şifreniz
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <asp:TextBox ID="girismail_txtbox" runat="server"></asp:TextBox>
+                                        </td>
+                                        <td>
+                                             <asp:TextBox ID="girissifre_txtbox" runat="server"></asp:TextBox>
+                                        </td>
+                                        <td>
+                                             <asp:Button ID="girisyap_bttn" runat="server" OnClick="giris_kontrol_click" Text="Giriş" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <a href="http://localhost:61808/kay%C4%B1t.aspx" style="color:#000; font-weight:bold; ">Yeni Üyelik!</a>                                           
+                                             <a href="/uye/sifremi-unuttum" style="color:#000; margin-left:90px; font-weight:bold;">Şifremi unuttum</a>                                        
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <div style="display:none;">
+                            <input type="hidden" name="data[_Token][fields]" value="8c3036619a12e9d208a12369045df518e0014771%3A" id="TokenFields628545531"/>
+
+                        </div>
+
+                                            
+
+    </li>
+
+        </ul>
+    </div>
+
+
+
+        <div id="üst">
+    <div id="top_container">
+            <div id="top_center">
+                <ul style="margin:0; padding:0; overflow:hidden; list-style-type: none;">
+                    <li style="display: block; float: left;">
+                        <a href="http://localhost:61808/Anasayfa.aspx">
+                            <img src="logo1.png" alt="Whichbooks logo" style="margin-top:20px;"/></a>
+                    </li>
+                                        
+                                    </ul>
+            </div>
+        </div>
+    <div id="menu_container">
+            <ul class="topnav">
+                                <li id="current_page"><a href="http://localhost:61808/Anasayfa.aspx">Ana Sayfa</a></li>
+                <li><a href="http://localhost:61808/kay%C4%B1t.aspx">Hemen Üye Ol!</a></li>
+                <li><a href="/whichbooks-nedir">Whickbooks Nedir?</a></li>
+                                
+                
+                
+            </ul>
+        </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <div id="footer" class="palette1">
+            <div id="footer_inner">
+                <div class="left">
+                    Whichbooks © 2016 Tüm hakları saklıdır.
+                </div>
+                
+                <div class="right">
+                                            <a href="/giris">Üye Girişi</a>                        |
+                        <a href="http://localhost:61808/kay%C4%B1t.aspx">Yeni Üyelik</a> 
+                        | 
+                        <a href="/gizlilik-sozlesmesi">Gizlilik Sözleşmesi</a> 
+                        | 
+                        <a href="/iletisim">İletişim</a>                                    </div>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+    
+    </form>
+</body>
+</html>
