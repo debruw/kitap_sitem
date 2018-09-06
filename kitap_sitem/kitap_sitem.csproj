@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ayarlar.aspx" />
+    <Content Include="profil_stil.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -117,7 +119,9 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="kullanıcı.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="anasayfa.aspx.cs">
@@ -126,6 +130,13 @@
     </Compile>
     <Compile Include="anasayfa.aspx.designer.cs">
       <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ayarlar.aspx.cs">
+      <DependentUpon>ayarlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ayarlar.aspx.designer.cs">
+      <DependentUpon>ayarlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="kayıt.aspx.cs">
       <DependentUpon>kayıt.aspx</DependentUpon>
@@ -156,6 +167,9 @@
     <Compile Include="Anasayfa.Master.designer.cs">
       <DependentUpon>Anasayfa.Master</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resimler\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

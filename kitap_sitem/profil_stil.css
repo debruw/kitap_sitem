@@ -1,0 +1,165 @@
+﻿body {
+    font-size: 1em;
+}
+.mbottom {
+    margin-bottom: 20px;
+}
+.left {
+    float: left;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #0D0B0A;
+}
+.clear {
+    clear: both;
+}
+.clear {
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    width: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.frame {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+#content {
+    width: 100%;
+    background: #fff;
+    clear: both;
+    color: #333;
+    margin: 0 5px 0 10px;
+    padding-top: 20px;
+}
+.mleft {
+    margin-left: 20px;
+}
+.profile_info_div {
+    margin-bottom: 4px;
+}
+a {
+    color: #3073AC;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+.lblue {
+    color: #3073AC !important;
+}
+.tab_main {
+    z-index: 1001;
+    position: relative;
+    top: 1px;
+}
+
+.tab_main h1 {
+    color: #16205F;
+    cursor: default;
+}
+.tab h1 {
+    display: inline;
+    font-size: 0.78em;
+    margin-bottom: 0px;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+    color: #666;
+}
+.tab_main h1 a {
+    color: #16205F;
+    text-decoration: none;
+}
+.tab h1 a {
+    color: #666;
+    text-decoration: none;
+}
+.tab {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    height: 29px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: block;
+    float: left;
+    background-color: #fff;
+    z-index: 1000;
+    margin-right: 4px;
+    margin-bottom:0px;
+}
+.tab h1 {
+    display: inline;
+    font-size: 0.78em;
+    margin-bottom: 0px;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+    color: #666;
+}
+.tab h1 a {
+    color: #666;
+    text-decoration: none;
+}
+.tab_content {
+    width:500px;
+    clear: both;
+    border: 1px solid #d5d5d5;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.tab_content2 {
+    width:380px;
+    clear: both;
+    border:none;
+    padding: 20px;
+    
+    margin-bottom: 20px;
+}
+
+a.box_link {
+    display: block;
+    padding: 3px;
+    min-width: 80px;
+    max-width: 90px;
+    text-align: center;
+    color: #444;
+    border: 1px solid #ddd;
+}
+    a.box_link > div {
+    text-align: center;
+    font-size: 1.06em;
+    margin-bottom: 3px;
+}
+a.box_link > p {
+    font-size: 0.62em;
+    color: #999;
+}
+
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+script {
+    display: none;
+}
+
+
+
+

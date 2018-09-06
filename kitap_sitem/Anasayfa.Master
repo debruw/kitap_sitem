@@ -17,11 +17,7 @@
         <ul style="margin-top:0px;">
     <li style="display: block; float: right; margin-top: 1%;">
                         
-                            <div style="display:none;">
-                                <input type="hidden" name="_method" value="POST"/>
-                                <input type="hidden" name="data[_Token][key]" value="9c794a93b1d976d5a07c53242a7232e43dc9c79f" id="Token1953780139"/>
-
-                            </div>                            
+                                                     
                             <table id="login_table" cellpadding="2" cellspacing="5">
                                 <tbody>
                                     <tr>
@@ -38,20 +34,21 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:TextBox ID="girismail_txtbox" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="girismail_txtbox" runat="server" TextMode="Email"></asp:TextBox>
                                         </td>
                                         <td>
-                                             <asp:TextBox ID="girissifre_txtbox" runat="server"></asp:TextBox>
+                                             <asp:TextBox ID="girissifre_txtbox" runat="server" TextMode="Password"></asp:TextBox>
                                         </td>
                                         <td>
-                                             <asp:Button ID="girisyap_bttn" runat="server" OnClick="giris_kontrol_click" Text="Giriş" />
+                                             <asp:Button ID="girisyap_bttn" style="cursor:pointer;" runat="server" OnClick="giris_kontrol_click" Text="Giriş" />
+                                            
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="3">
-                                            <a href="http://localhost:61808/kay%C4%B1t.aspx" style="color:#000; font-weight:bold; ">Yeni Üyelik!</a>                                           
-                                             <a href="/uye/sifremi-unuttum" style="color:#000; margin-left:90px; font-weight:bold;">Şifremi unuttum</a>                                        
-
+                                            <a href="kayıt.aspx" style="color:#000; font-weight:bold; ">Yeni Üyelik!</a>                                           
+                                             <a href="/uye/sifremi-unuttum" style="color:#000; margin-left:90px; font-weight:bold;">Şifremi unuttum</a><br/>                                      
+                                            <asp:Label ID="girislbl" style="color:blue; font-weight:bold;" runat="server" Text=""></asp:Label>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -75,7 +72,7 @@
             <div id="top_center">
                 <ul style="margin:0; padding:0; overflow:hidden; list-style-type: none;">
                     <li style="display: block; float: left;">
-                        <a href="http://localhost:61808/Anasayfa.aspx">
+                        <a href="anasayfa.aspx">
                             <img src="logo1.png" alt="Whichbooks logo" style="margin-top:20px;"/></a>
                     </li>
                                         
@@ -84,9 +81,8 @@
         </div>
     <div id="menu_container">
             <ul class="topnav">
-                                <li id="current_page"><a href="http://localhost:61808/Anasayfa.aspx">Ana Sayfa</a></li>
-                <li><a href="http://localhost:61808/kay%C4%B1t.aspx">Hemen Üye Ol!</a></li>
-                <li><a href="/whichbooks-nedir">Whickbooks Nedir?</a></li>
+                                <li id="current_page"><a href="anasayfa.aspx">Ana Sayfa</a></li>
+                <li><a href="kayıt.aspx">Hemen Üye Ol!</a></li>
                                 
                 
                 
@@ -105,12 +101,14 @@
                 </div>
                 
                 <div class="right">
-                                            <a href="/giris">Üye Girişi</a>                        |
-                        <a href="http://localhost:61808/kay%C4%B1t.aspx">Yeni Üyelik</a> 
+                                                                 
+                        <a href="kayıt.aspx">Yeni Üyelik</a> 
                         | 
-                        <a href="/gizlilik-sozlesmesi">Gizlilik Sözleşmesi</a> 
+                        <a href="#">Gizlilik Sözleşmesi</a> 
                         | 
-                        <a href="/iletisim">İletişim</a>                                    </div>
+                        <a href="#">İletişim</a>                                    
+
+                </div>
                 
                 <div class="clear"></div>
             </div>

@@ -13,7 +13,7 @@ h1 {
     margin-left:100px;
 }
 
-.form_big_register input, .form_big_register textarea {
+.form_big_register input, .form_big_register textarea, .form_big_register input[type=email] {
     border: 1px solid #aaa;
     height: 27px;
     width: 100%;
@@ -39,7 +39,8 @@ label {
     margin-bottom: 3px;
     margin-right: 5px;
 }
-form .giris_formu input[type=button], .green_button, .textBox {
+
+form .giris_formu input[type=button], .green_button,.giris_formu input[type=email] {
     border: 1px solid #388F16;
     color: #FFFFFF !important;
     cursor: pointer;
@@ -63,11 +64,14 @@ form .giris_formu input[type=button], .green_button, .textBox {
     font-size: 18px;
     padding: 2px;
 }
-input, textarea {
+input, textarea input[type=password],textarea input[type=email] {
     font-size: 0.75em;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     font-family: arial, "lucida grande", "verdana", sans-serif;
 }
+
+
+
 .clear {
     clear: both;
     height: 0px;

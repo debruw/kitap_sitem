@@ -22,26 +22,26 @@
             </div>			
             <div class="input text required">
                 <label for="UserEmail">E-posta</label>
-                <asp:TextBox ID="eposta_txtbox" runat="server"></asp:TextBox>
+                <asp:TextBox ID="eposta_txtbox"  runat="server" TextMode="Email"></asp:TextBox>
             </div>			
 			<div style="width: 100%">
 				<div class="left1">
-					<label for="UserXPassword">Şifre (min 6 karakter)</label>
-                  	<asp:TextBox ID="sifre_txtbox" runat="server"></asp:TextBox>			
-
+					<label for="UserXPassword">Şifre (min 6 karakter)</label>                    
+                    <asp:Label ID="hatalbl" Style=" position:absolute; margin-left:200px; margin-top:-20px; color:red; font-weight:bold;" runat="server" Text=""></asp:Label>
+                  	<asp:TextBox ID="sifre_txtbox"  runat="server" TextMode="Password"></asp:TextBox>			
 				</div>
                 
                 <div class="left1" >
 					<label for="UserPasswordConfirmation">Şifre Tekrar</label>
-                     <asp:TextBox ID="sifre2_txtbox" runat="server"></asp:TextBox>			
-
+                     <asp:TextBox ID="sifre2_txtbox" runat="server" TextMode="Password"></asp:TextBox>			
+                    
                 </div>
 
                 <div class="clear"></div>
 			</div>
 			
 					<div class="giris_formu tright">
-				<asp:Button ID="kayıt_bttn" runat="server" width="80px" onclick="kayit_click" Text="Üye ol" />		
+				<asp:Button ID="kayıt_bttn" runat="server" style="cursor:pointer;" width="80px" onclick="kayit_click" Text="Üye ol" />		
                         
 
                         <div class="clear"></div>

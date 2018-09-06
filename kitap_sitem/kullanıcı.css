@@ -158,7 +158,7 @@ ul.topnav li a {
 ul.topnav .profile {
     float: right;
 }
-ul.topnav li.icon {
+ul.topnav li.icon  {
     display: none;
     color: #000;
 }

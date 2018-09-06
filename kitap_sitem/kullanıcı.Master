@@ -7,6 +7,7 @@
     <title></title>
     <link href="kullanıcı.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
+
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -26,56 +27,30 @@
         </div>
     <div id="menu_container">
             <ul class="topnav">
-                                <li><a href="http://localhost:61808/profil.aspx">Ana Sayfa</a></li>
-                <li><a href="#">Kitaplarım</a>                <ul>
-                    <li class="first_li"><a href="/kutuphanem" class="palette2">Kütüphanem</a></li>
-                    <li><a href="/odunc-verdiklerim" class="palette2">Ödünç Verdiklerim</a></li>
-                    <li><a href="/odunc-aldiklarim" class="palette2">Ödünç Aldıklarım</a></li>
-                    <li><a href="/okuyorum" class="palette2">Okuyorum</a></li>
-                    <li><a href="/okuduklarim" class="palette2">Okuduklarım</a></li>
-                    <li><a href="/okumak-istediklerim" class="palette2">Okumak İstediklerim</a></li>
-                    <li><a href="/favorilerim" class="palette2">Favorilerim</a></li>
-                    <li><a href="/yarim-biraktiklarim" class="palette2">Yarım Bıraktıklarım</a></li>
-                    <li><a href="/takas-verebilirim" class="palette2">Takas Verebilirim</a></li>
-                </ul>
-                </li>
+                <li><a href="profil.aspx">Ana Sayfa</a></li>
+                <li><a href="#">Kitaplarım</a> </li>
                 <li><a href="/kitap-ekle">Kitap Ekle</a></li>
-                <li><a href="http://www.vikitap.com/profil/dwebru-299690">Profilim</a></li>
-
-
-                                <li><a href="/gruplar">Gruplar</a></li>
-                <li><a href="/quizler">Testler</a></li>
-                <li><a href="/listeler">Listeler</a></li>
-                                                        <li class="profile">
-                                                                                                                        <a href="#">Ayarlar  (dwebru)</a>                                                  
-                        <ul style="z-index: 99999">
-                            <li>
-                                <a href="/mesajlarim">Mesajlarım </a> 
-                            </li>
-                            <li>
-                                <a href="/takip-ettiklerim">Takip</a> 
-                            </li>
-                            <li>
-                                <a href="/profil-ayarlari">Ayarlar</a>                            </li>
-                            <li>
-                                <a href="/davet">Davet</a>                            </li>
-                            <li>
-                                <a href="/vikitap-istatistikleri/en-begenilen-yorumlar">İstatistik</a>                            </li>
-                            <li>
-                                <a href="/iletisim">İletişim</a>                            </li>
-                                                        <li>
-                                <a href="/cikis">çıkış</a>                            </li>
-                        </ul>
-                    </li>
-                                
+               <li class="profile" style="margin-right:200px;">
+                                                                                                                       
+               <a href="ayarlar.aspx">Ayarlar <asp:Label ID="lblkadi" style="color:blue;" runat="server" Text=""></asp:Label>  </a>   <a href="anasayfa.aspx" >Çıkış yap</a>
+               
+               </li>
+               
+                                 
             </ul>
         </div>
         </div>
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
+
         </asp:ContentPlaceHolder>
     
+
+
+
+
+
         <div id="footer" class="palette1">
             <div id="footer_inner">
                 <div class="left">
@@ -83,17 +58,12 @@
                 </div>
                 
                 <div class="right">
-                        <a href="http://www.vikitap.com/profil/dwebru-299690">dwebru</a> 
-                        |
-                        <a href="/kutuphanem">Kütüphanem</a>                        | 
-                        <a href="/profil-ayarlari">Ayarlar</a> 
+                        <a href="ayarlar.aspx">Ayarlar</a> 
                         | 
-                        <a href="/davet">Davet</a> 
-                        | 
-                        <a href="/okuma-durumu">İstatistik</a>                        |
                         <a href="/iletisim">İletişim</a> 
                         |
-                        <a href="/vikitap-nedir">Vikitap Nedir?</a>                        |
+                        <a href="/vikitap-nedir">Whichbooks Nedir?</a>                        
+                        |
                         <a href="/cikis">Çıkış</a>                                   
 
                 </div>

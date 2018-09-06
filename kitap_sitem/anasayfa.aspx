@@ -34,7 +34,7 @@
 	<div class="tanitmaca">
 		<h2>Kitaplarınızı dilediğiniz gibi listeleyin!</h2>
 		<p>
-			Kitabınızı istediğiniz listeye ekleyebilirsiniz. Sizin için hazırladığımız listeleri kullanabilir veya kendinize özel listeler oluşturabilirsiniz.
+			Kitabınızı istediğiniz listeye ekleyebilirsiniz. Kendinize özel listeler oluşturabilirsiniz.
 			Okuduğunuz, okumak İstediğiniz tüm kitapları size özel listelere kaydederek her an, her yerde ulaşabilirsiniz.
 		</p>
 	</div>
